@@ -1,0 +1,14 @@
+# OculiSenseAI Dependencies
+# Core works with Python 3.10+ standard library (including demo mode & headless daemon)
+
+# Optional for live physical webcam & FaceMesh tracking:
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0
+
+# Optional for ML fatigue predictor:
+scikit-learn>=1.2.0
+
+# Testing and report generation:
+pytest>=7.3.0
+Pillow>=9.5.0
